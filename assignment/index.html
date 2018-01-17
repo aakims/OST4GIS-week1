@@ -28,10 +28,10 @@
       	ext: 'png'
       }).addTo(map);
 
-
+      //new custom icon
       var restaurantIcon = L.icon({
         iconUrl: 'images/new-marker_icon.png',
-        iconAnchor: [17, 55]
+        iconAnchor: [17, 55] //bottom center coord. of the icon
       });
 
       L.marker([39.949075, -75.214651], {icon: restaurantIcon}).addTo(map).bindPopup("Aksum");
